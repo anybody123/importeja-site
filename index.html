@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt">
+ <head>
+  <link href="favicon.ico" rel="icon" type="image/x-icon"/>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="Servi&ccedil;o profissional de importa&ccedil;&atilde;o autom&oacute;vel para Portugal. R&aacute;pido, seguro e 100% legal. Atendimento em Portugu&ecirc;s e Ingl&ecirc;s." name="description"/>
+  <title>
+   ImporteJ&aacute; - Importa&ccedil;&atilde;o Autom&oacute;vel
+  </title>
+  <style>
+   * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; background-color: #f5f7fa; color: #333; }
+    header {
+      background-color: #002244;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    header h1 { font-size: 1.8rem; }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover { text-decoration: underline; }
+    .language-switch {
+      margin-left: 30px;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('car-import-banner.jpg') no-repeat center center/cover;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .hero h2 { font-size: 2.5rem; margin-bottom: 20px; }
+    .hero p { font-size: 1.2rem; }
+    .section {
+      padding: 60px 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #002244;
+      border-left: 5px solid #005bbb;
+      padding-left: 15px;
+    }
+    .section ul {
+      list-style: disc;
+      padding-left: 40px;
+      margin-top: 10px;
+    }
+    .section p { margin-bottom: 15px; }
+    footer {
+      background-color: #002244;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 100;
+    }
+    .whatsapp img {
+      width: 60px;
+    }
+    @media (max-width: 600px) {
+      header, .section { padding: 20px; }
+      .hero h2 { font-size: 2rem; }
+    }
+  </style>
+ </head>
+ <body>
+  <header>
+   <img alt="ImporteJ&aacute;" src="logo.png" style="height: 130px; margin-bottom: 30px; background-color: white; padding: 10px; border-radius: 12px;"/>
+   <div>
+    <h1 style="font-size: 3em; font-weight: bold; color: #ffffff; margin-bottom: 10px;">
+     ImporteJ&aacute;
+    </h1>
+   </div>
+   <nav>
+    <a href="#servicos">
+     Servi&ccedil;os
+    </a>
+    <a href="#processo">
+     Processo
+    </a>
+    <a href="#sobre">
+     Sobre
+    </a>
+    <a href="#contacto">
+     Contacto
+    </a>
+    <select class="language-switch" onchange="changeLanguage(this)">
+     <option value="pt">
+      Portugu&ecirc;s
+     </option>
+     <option value="en">
+      English
+     </option>
+    </select>
+   </nav>
+  </header>
+  <section class="hero">
+   <h2>
+    Importa&ccedil;&atilde;o Autom&oacute;vel para Portugal
+   </h2>
+   <p>
+    Especialistas em importa&ccedil;&atilde;o autom&oacute;vel para Portugal &mdash; de forma r&aacute;pida, legal e segura.
+   </p>
+   <div style="margin-top: 25px;">
+    <a href="https://wa.me/351939032958" style="
+        display: inline-block;
+        background-color: #25D366;
+        color: white;
+        padding: 12px 24px;
+        font-size: 1.1em;
+        font-weight: bold;
+        border-radius: 8px;
+        text-decoration: none;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        transition: background-color 0.3s ease;" target="_blank">
+     Obtenha uma proposta
+    </a>
+   </div>
+  </section>
+  <section class="section" id="servicos">
+   <h2>
+    Os Nossos Servi&ccedil;os
+   </h2>
+   <ul>
+    <li>
+     Pesquisa e sele&ccedil;&atilde;o do ve&iacute;culo ideal segundo o seu perfil
+    </li>
+    <li>
+     Negocia&ccedil;&atilde;o direta com vendedores de confian&ccedil;a
+    </li>
+    <li>
+     Transporte internacional e log&iacute;stica at&eacute; Portugal
+    </li>
+    <li>
+     Legaliza&ccedil;&atilde;o junto das entidades portuguesas
+    </li>
+    <li>
+     Inspe&ccedil;&atilde;o, homologa&ccedil;&atilde;o e registo de matr&iacute;cula
+    </li>
+    <li>
+     Acompanhamento completo e personalizado em cada etapa
+    </li>
+   </ul>
+  </section>
+  <section class="section" id="processo">
+   <h2>
+    Como Funciona
+   </h2>
+   <p>
+    <strong>
+     1. Contacto Inicial:
+    </strong>
+    Partilhe o tipo de ve&iacute;culo que procura.
+   </p>
+   <p>
+    <strong>
+     2. Pesquisa:
+    </strong>
+    Encontramos as melhores oportunidades no mercado europeu.
+   </p>
+   <p>
+    <strong>
+     3. Proposta:
+    </strong>
+    Apresentamos os custos totais, sem surpresas.
+   </p>
+   <p>
+    <strong>
+     4. Transporte e Legaliza&ccedil;&atilde;o:
+    </strong>
+    Tratamos de todo o processo at&eacute; &agrave; entrega legalizada.
+   </p>
+   <p>
+    <strong>
+     5. Entrega:
+    </strong>
+    O ve&iacute;culo &eacute; entregue com matr&iacute;cula portuguesa e pronto a circular.
+   </p>
+  </section>
+  <section class="section" id="sobre">
+   <h2>
+    Quem Somos
+   </h2>
+   <p>
+    Na
+    <strong>
+     ImporteJ&aacute;
+    </strong>
+    , somos apaixonados por autom&oacute;veis e especializados em processos de importa&ccedil;&atilde;o. Com anos de experi&ecirc;ncia no mercado europeu, garantimos um servi&ccedil;o transparente, legal e eficaz.
+   </p>
+   <p>
+    Atuamos com &eacute;tica e compromisso, tratando de toda a burocracia para que o cliente n&atilde;o tenha preocupa&ccedil;&otilde;es.
+   </p>
+  </section>
+  <section class="section" id="contacto">
+   <h2>
+    Fale Connosco
+   </h2>
+   <p>
+    Estamos dispon&iacute;veis para esclarecer d&uacute;vidas e dar or&ccedil;amentos personalizados.
+   </p>
+   <p>
+    Fale connosco atrav&eacute;s do
+    <strong>
+     <a href="https://wa.me/351939032958" target="_blank">
+      WhatsApp
+     </a>
+    </strong>
+    .
+   </p>
+  </section>
+  <footer>
+   <p>
+    &copy; 2025 ImporteJ&aacute;. Todos os direitos reservados.
+   </p>
+  </footer>
+  <a class="whatsapp" href="https://wa.me/351939032958" target="_blank">
+   <img alt="WhatsApp Contact" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
+   </img>
+  </a>
+  <script>
+   const translations = {
+      en: {
+        "Importação Automóvel para Portugal": "Car Import to Portugal",
+        "Especialistas em importação automóvel para Portugal — de forma rápida, legal e segura.": "We specialize in bringing your dream car to you — fast, legally, and reliably.",
+        "Os Nossos Serviços": "Our Services",
+        "Como Funciona": "How It Works",
+        "Quem Somos": "About Us",
+        "Fale Connosco": "Contact Us",
+        "Todos os direitos reservados.": "All rights reserved."
+      }
+    };
+    function changeLanguage(select) {
+      const lang = select.value;
+      if (lang === 'en') {
+        for (const [ptText, enText] of Object.entries(translations.en)) {
+          document.body.innerHTML = document.body.innerHTML.replace(ptText, enText);
+        }
+      } else {
+        location.reload();
+      }
+    }
+  </script>
+ </body>
+</html>
